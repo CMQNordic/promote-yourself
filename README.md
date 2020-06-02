@@ -1,8 +1,8 @@
 # Final version project: __Promote Yourself__
 
-### The course at [Udemy](https://www.udemy.com/course/the-complete-nuxtjs-vuejs-course-self-promo-app/):
+### The course at Udemy teaching vue, nuxt and mongo
 
-### Course: The Complete Nuxt.js & Vue.js Course
+### Course: [The Complete Nuxt.js & Vue.js Course](https://www.udemy.com/course/the-complete-nuxtjs-vuejs-course-self-promo-app/)
 
 
 ## Before running:
