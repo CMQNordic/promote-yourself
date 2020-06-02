@@ -22,7 +22,7 @@ exports.initSessionStore = function() {
 
 exports.connect = function() {
   return mongoose.connect(keys.DB_URI, { useNewUrlParser: true })
-    .then(() => console.log('DB Connected!'))
+    .then(() => console.log('DB Connected successfully!'))
     .catch(err => console.log(err));
 }
 

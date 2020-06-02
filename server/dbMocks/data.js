@@ -18,40 +18,40 @@ module.exports = {
     model: User,
     items: [
       {
-      "_id": user1Id,
-      "avatar": "https://b.kisscc0.com/20180718/urw/kisscc0-ninja-computer-icons-samurai-youtube-avatar-ninja-5b4ed903c2dd20.4931332915318940197982.jpg",
-      "email": "filip@gmail.com",
-      "name": "Filip Jerga",
-      "info": "Bla bla bla bla",
-      "createdAt": moment().toISOString(),
-      "updatedAt": moment().toISOString(),
-      "username": "Rhonyn99",
-      "password": "testtest",
-      "role": 'admin',
-      "products": [product1Id]
-    },
-    {
-      "_id": user2Id,
-      "avatar": "https://www.clipartmax.com/png/middle/195-1956720_%5B-img%5D-avatar.png",
-      "email": "peter@gmail.com",
-      "name": "Peter Green",
-      "info": "Bla bla bla bla",
-      "createdAt": moment().toISOString(),
-      "updatedAt": moment().toISOString(),
-      "username": "Petergreen",
-      "password": "testtest1"
-    },
-    {
-      "_id": user3Id,
-      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuqyc3j2s3bL4DIkC8uC9h0rcAdsDXcwJPNh8XHWbLQfHbOpVU",
-      "email": "kevin@gmail.com",
-      "name": "Kevin Rock",
-      "info": "I have a famous name",
-      "createdAt": moment().toISOString(),
-      "updatedAt": moment().toISOString(),
-      "username": "Kevin21",
-      "password": "testtest2"
-    }]
+        "_id": user1Id,
+        "avatar": "https://b.kisscc0.com/20180718/urw/kisscc0-ninja-computer-icons-samurai-youtube-avatar-ninja-5b4ed903c2dd20.4931332915318940197982.jpg",
+        "email": "admin@admin.com",
+        "name": "Martin Czerwinski",
+        "info": "Bla bla bla bla",
+        "createdAt": moment().toISOString(),
+        "updatedAt": moment().toISOString(),
+        "username": "admin",
+        "password": "admin1234",
+        "role": 'admin',
+        "products": [product1Id]
+      },
+      {
+        "_id": user2Id,
+        "avatar": "https://www.clipartmax.com/png/middle/195-1956720_%5B-img%5D-avatar.png",
+        "email": "peter@gmail.com",
+        "name": "Peter Green",
+        "info": "Bla bla bla bla",
+        "createdAt": moment().toISOString(),
+        "updatedAt": moment().toISOString(),
+        "username": "Petergreen",
+        "password": "testtest1"
+      },
+      {
+        "_id": user3Id,
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuqyc3j2s3bL4DIkC8uC9h0rcAdsDXcwJPNh8XHWbLQfHbOpVU",
+        "email": "kevin@gmail.com",
+        "name": "Kevin Rock",
+        "info": "I have a famous name",
+        "createdAt": moment().toISOString(),
+        "updatedAt": moment().toISOString(),
+        "username": "Kevin21",
+        "password": "testtest2"
+      }]
   },
   categories: {
     model: Category,
@@ -59,7 +59,7 @@ module.exports = {
       {
         "_id": category1Id,
         "name": "Web Development"
-      },{
+      }, {
         "_id": category2Id,
         "name": "Mobile Development"
       }
