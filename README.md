@@ -30,6 +30,10 @@ Populate the server by running:
 
 Then data in data.js will written to db
 ```
+To det products:
+```
+http://localhost:3000/api/v1/products
+```
 
 ## Build Setup
 

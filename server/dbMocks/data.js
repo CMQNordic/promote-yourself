@@ -19,7 +19,7 @@ module.exports = {
     items: [
       {
         "_id": user1Id,
-        "avatar": "https://b.kisscc0.com/20180718/urw/kisscc0-ninja-computer-icons-samurai-youtube-avatar-ninja-5b4ed903c2dd20.4931332915318940197982.jpg",
+        "avatar": "https://avatars2.githubusercontent.com/u/8937713?s=460&u=2e71ac6b0e41d48c5329e010b561f9d52fba5892&v=4",
         "email": "admin@admin.com",
         "name": "Martin Czerwinski",
         "info": "Bla bla bla bla",
